@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact-page || Starter</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- remix-icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply-recipes">
+        </a>
+        <button class="btn btn-navbar"><i class="ri-menu-line"></i></button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+
+        <div class="contact-link nav-link">
+          <a href="contact.html" class="btn">contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <section class="contact-page-des">
+      <article class="contact-des">
+        <h3>Want To Get In Touch?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea quidem harum beatae.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos maxime natus optio impedit!</p>
+      </article>
+        <form action="" class="form contact-form">
+         <div class="form-row">
+          <label for="name" class="name form-label" id="name">Your name</label> 
+         <input type="text" class="form-input">
+        </div>
+        <div class="form-row">
+         <label for="email" class="email form-label" id="email">Your email</label> 
+         <input type="text" class="form-input" >
+        </div>
+        <div class="form-row">
+         <label for="message" class="message form-label" id="message">Message</label>
+         <textarea name="" id="" cols="" rows="" class="form-textarea"></textarea>
+        </div>
+        <button class="btn contact-btn">Submit</button>
+        </form>
+    </section>
+    <h5 class="about-mid-headline">Look At This Awesomesouce!</h5>
+    <section class="recipes-section">
+      <a href="./single-recipe.html" class=" item item1 recipes1">
+        <img src="./assets/recipes/recipe-1.jpeg" alt="" class="recipes-img">
+        <div class="recipes-header">
+          <h5 class="recipes-header-content">carne Asada</h5>
+          <p class="recipes-header-content recipe-p">Prep:15 | Cook : 5min
+          </p>
+        </div>
+      </a>
+
+      <a href="./single-recipe.html" class="item item2 recipes2">
+
+        <img src="./assets/recipes/recipe-2.jpeg" alt="" class="recipes-img">
+        <div class="recipes-header">
+          <h5 class="recipes-header-content">geeks Ribs</h5>
+          <p class="recipes-header-content recipe-p">Prep:15 | Cook : 5min
+          </p>
+        </div>
+      </a>
+      <a href="./single-recipe.html" class="item item3 recipes3">
+        <img src="./assets/recipes/recipe-3.jpeg" alt="" class="recipes-img">
+        <div class="recipes-header">
+          <h5 class="recipes-header-content">Vegetable soup</h5>
+          <p class="recipes-header-content recipe-p">Prep:15 | Cook : 5min
+          </p>
+        </div>
+      </a>
+      
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; <span class="footer-logo">Simply-Recipes</span> made by <span class="footer-link"><a href="#"><em>Anuj Kumar</em></a></span></p>
+  </footer>
+  <!-- script -->
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>
